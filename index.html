@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b0a0f">
+    <title>Fala Texto | Leitor de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+            <span class="eyebrow">Leitor de voz</span>
+        </header>
+
+        <section class="intro">
+            <p class="kicker">Transforme texto em presença</p>
+            <h1>Ouça suas<br><strong>palavras.</strong></h1>
+            <p class="description">Cole ou escreva um texto abaixo e deixe a sua voz digital fazer o resto.</p>
+        </section>
+
+        <section class="composer" aria-label="Área de texto para leitura">
+            <div class="composer-topline">
+                <label for="text">Seu texto</label>
+                <span class="language">PT-BR <span class="dot"></span></span>
+            </div>
+            <textarea id="text" cols="30" rows="10" placeholder="Comece a escrever aqui..."></textarea>
+            <div class="composer-footer">
+                <span class="hint">A leitura acontece em português.</span>
+                <button id="btn" type="button"><span class="play-icon" aria-hidden="true"></span>Ouvir texto</button>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <span class="status-dot"></span>
+            <span>Síntese de voz pronta</span>
+            <span class="footer-brand">fala<span>•</span>texto</span>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
